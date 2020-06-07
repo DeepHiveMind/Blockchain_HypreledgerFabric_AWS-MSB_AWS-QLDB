@@ -18,9 +18,7 @@
 - [(3) AWS Managed Blcokchain AMB](#AWS-Managed-Blcokchain-AMB)
 
 
-This repo primarily intends to offer  
-- Blcokchain Quick Overview 
-- Canvassing of 3 major framework/services for Blcokchain
+This repo primarily intends to canvass for 3 following major framework/services for Blcokchain
 	- **Hyperledger-Fabric** 
 	- **AWS-QLDB (AWS Quantum Ledger Database)**
 	- **AWS-MSB (AWS Managed Blockchain)**
