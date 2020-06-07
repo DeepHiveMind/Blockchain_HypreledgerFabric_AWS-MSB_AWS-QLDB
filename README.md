@@ -34,7 +34,7 @@ Sneak Peek into various commonly known Blockchain frameworks
 
 |Blcokchain Framework Conceptual difference | Broader View of Blcokchain Framework|  Commonly used Blcokchain Framework|
 | :--: | :--: | :--: |
-|<img src="/img/conceptualBC.png" width="300" Height="450" />|<img src="/img/broaderBC.png" width="300" Height="400" />|<img src="/img/commonBC.png" width="300" Height="400" />|
+|<img src="/img/conceptualBC.png" width="300" Height="250" />|<img src="/img/broaderBC.png" width="300" Height="250" />|<img src="/img/commonBC.png" width="300" Height="250" />|
 |Click on above image for full view|Click on above image for full view|Click on above image for full view|
 
 # Hyperledger Fabric HLF
@@ -44,9 +44,9 @@ HLF is one of the Framework from "HL Framework & Tools ecosystem" with the prima
 
 ### Vantage view of Hyperledger HL 
 
-Broader ecosystem of "HL Framework & Tools"
+Broader ecosystem of *HL Framework & Tools:*
 
-<img src="/img/HLBroaderView.png" width="600" Height="300" />
+<img src="/img/HLBroaderView.png" width="800" Height="300" />
 
 [Source](https://www.hyperledger.org/wp-content/uploads/2018/07/HL_Whitepaper_IntroductiontoHyperledger.pdf)
 
