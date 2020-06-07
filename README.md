@@ -356,8 +356,8 @@ The fundatmental technology of blockchain is crpytography. Crptography works on 
 
 Architecture Solution using QLDB for above use case application:
 
-<img src="/img/IOTArchitecure.jpg" width="900" Height="500" />
-[Video](https://www.youtube.com/watch?v=5CwIt-Alqhg)
+<img src="/img/IOTArchitecure.JPG" width="900" Height="500" />
+Solution Architecture [Link](https://www.youtube.com/watch?v=5CwIt-Alqhg)
 
 # Reference
 [1]
