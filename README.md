@@ -22,9 +22,10 @@ This repo primarily intends to canvass for 3 following major framework/services 
 - **Hyperledger-Fabric** 
 - **AWS-QLDB (AWS Quantum Ledger Database)**
 - **AWS-MSB (AWS Managed Blockchain)**
+
 Real world application of one of above Blockhain service 
-	- **Use Cases application of Blockchain Network for ENTERPRISE DATA LAKE ENGINEERING and for DATA ARCHITECTS**
-	- Digital Asset Management
+- ENT**Use Cases application of Blockchain Network for ENTERPRISE DATA LAKE ENGINEERING and for DATA ARCHITECTS**
+- Digital Asset Management
 
 
 *For the ease of addressing, hereon, I'll use following pairs of terms interchangably* - 
@@ -75,8 +76,6 @@ However, The commonality amongst All of the types of available frameworks
 - Full Scale Operationalization Paradigm: **BlcokchainOps**: *DevOps in Blockchain*-  One can use **Kubernetes (CaaS)** to seamlessly manage and govern these Blockchain containerized network, workloads (smart contracts, Member registry et al) with the High availability, Auto Scalability, Self healing NFRs. 
 
  
-SOR vs Blcokchain from **Business Network** standpoint:
-
 
 
 
@@ -123,6 +122,7 @@ We all know, *building TRUST (audit functionality & Verifiability)* with **Next 
 ```
 	
 	
+SOR vs Blcokchain from **Business Network** standpoint:
 
 |"Today’s Systems-of-Record" (Distributed Database or Ledger) | "Blcokchain" (The Future network of Distributed and Decentralized Database or Ledger)|
 | :--: | :--: |
