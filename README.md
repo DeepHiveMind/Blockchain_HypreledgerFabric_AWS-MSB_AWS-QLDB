@@ -73,7 +73,15 @@ However, The commonality amongst All of the types of available frameworks
 - **Data Provenance**: Blcokchain comes baked in with *Data Provenance* by offering *immutable and cryptographically verifiable record of transactions* 
 - each offers an **immutable** and **cryptographically verifiable record of transactions** 
 - each one is also available in **DOCKER (containers)**
-- Full Scale Operationalization Paradigm: **BlcokchainOps**: *DevOps in Blockchain*-  One can use **Kubernetes (CaaS)** to seamlessly manage and govern these Blockchain containerized network, workloads (smart contracts, Member registry et al) with the High availability, Auto Scalability, Self healing NFRs. 
+
+
+### BlockchainOps
+Full Scale Operationalization Paradigm: **BlcokchainOps**: *DevOps in Blockchain*-  
+One can use **Kubernetes (CaaS)** to seamlessly manage and govern any 
+
+- Blockchain containerized network, 
+- workloads (smart contracts, Member registry et al) 
+with the High availability, Auto Scalability, Self healing NFRs. 
 
  
 
@@ -123,11 +131,10 @@ We all know, *building TRUST (audit functionality & Verifiability)* with **Next 
 	- wherein all the members of a **business network** transact with each other, 
 	- but they maintain **separate records of their transactions**.
 				
-				- 
 		
-		- "Blcokchain" is the Future network which answers aforemention inherent challanges with traditional SOR 
-				- with *'Distributed' & 'Decentralized' Database/ Ledger Management system* 
-				- wherein auditing, record keeping and **Data provenance** comes baked in 
+-Whereas "Blcokchain" is the Future network which answers aforemention inherent challanges with traditional SOR 
+	- with *'Distributed' & 'Decentralized' Database/ Ledger Management system* 
+	- wherein auditing, record keeping and **Data provenance** comes baked in 
 ```
 	
 	
@@ -214,22 +221,44 @@ The same *protocol* and *Algo* is used in **Progrium Consul** (a distributed com
 
 
 
-
 # AWS Quantum Ledger Database QLDB
 
 ### Overview of AWS QLBD
 AWS QLDB
-- is **Scalable**
-- is **Serverless**
 - provides a **centralized ledger** for auditing and record keeping purposes
 - Offers **Verifiability** - verifies integrity of past records 
+
+- is **Scalable**
+- is **Serverless**
 - can be provisoned with **AWS ClouFormation (IaC)** with additional user level control from clinet side with **IAM & ACL**
+
 - can **trigger AWS Lambda events** to process other *downstream workflows* 
 - can integrate with **other AWS PaaS Services**
-	
-### Use Cases application of QLDB for DATA ENGINEERS and DATA ARCHITECTS	
 
-*Use Case:*
+### PYTHON client API for AWS QLDB
+
+AWS QLDB supports low-level python client (AWS SDK for Python *Boto 3* API)
+
+Using Python, one can perform following operations on Amazon QLDB
+- Create a New Ledger
+- Test Connectivity to the Ledger
+- Create Tables, Indexes, and Sample Data
+- Query the Tables in a Ledger
+- Modify Documents in a Ledger
+- View the Revision History for a Document
+- Verify a Document in a Ledger
+
+Please refer to the [link](https://docs.aws.amazon.com/qldb/latest/developerguide/getting-started.python.tutorial.html) for more details.
+	
+
+
+# AWS Managed Blcokchain AMB
+
+### Key Concpets of AMB
+
+# Use Cases Application 
+
+### Application of Blockchain for DATA TRUST in ENTERPRISE DATA ENGINEERING	
 
 Businesses, Regulatory compliance (e.g., GDPR) often need a Data Lake / Data Foundation / System-of-Engagmemt to have Comprehensive Data Trust pillars (audit, provenance, Lineage, Verifiability). But, the Organization (a large FinTech Org) wants to have Furute-gen architecture which can provide
 
@@ -246,8 +275,12 @@ Businesses, Regulatory compliance (e.g., GDPR) often need a Data Lake / Data Fou
 	- transforming and loading the data into an Amazon Redshift cluster, and 
 	- also storing the data in an Amazon S3 data lake.
    ```
-- for critical events originating from **Streaming sources**, such as "*credit* and *debit transactions* across bank accounts", and also
-- for critical datasets generating from **Batch sources**, such as "history of assets for Loan lending to Orgs/customers like vehicle maintenance records /or/ Lending application records".
+
+- for critical events/ datasets originating from **Streaming sources**	/ **Batch sources**
+	```
+	- for critical events originating from Streaming sources, such as "*credit* and *debit transactions* across bank accounts", and also
+	- for critical datasets originating from Batch sources, such as "*history of assets* for Loan lending to Orgs/customers like vehicle maintenance records /or/ Lending application records".
+	```
 
 
 ### Solution Architecture Solution using QLDB
@@ -256,14 +289,8 @@ Architecture Solution using QLDB for above use case application:
 
 <img src="/img/Architecture_QLDB_non-traditionalSOR.png" width="900" Height="500" />
 
-	
-
-
-# AWS Managed Blcokchain AMB
-
-### Key Concpets of AMB
 
 # Reference
 [1]
 
-[2]https://github.com/senlinuc/caffe_ocr
+[2]
