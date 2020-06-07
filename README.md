@@ -2,8 +2,8 @@
  
 This repo primarily intends to offer  
 - canvassing of 3 major framework/services for Blcokchain
-	- **Hyperledger-Fabric 
-	- **AWS-QLDB (AWS Quantum Ledger Database)
+	- **Hyperledger-Fabric** 
+	- **AWS-QLDB (AWS Quantum Ledger Database)**
 	- **AWS-MSB (AWS Managed Service Blockchain)**
 - Real world application of one of above Blockhain service 
 	- Digital Asset Management
