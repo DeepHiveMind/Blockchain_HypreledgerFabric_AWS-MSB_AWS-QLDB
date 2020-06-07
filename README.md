@@ -1,7 +1,7 @@
 # Blockchain Hyperledger-Fabric AWS-QLDB AWS-MSB
  
 This repo primarily intends to offer  
-- A Sneak peek 
+- Blcokchain Quick Overview 
 - canvassing of 3 major framework/services for Blcokchain
 	- **Hyperledger-Fabric** 
 	- **AWS-QLDB (AWS Quantum Ledger Database)**
@@ -29,31 +29,84 @@ Please note:
 
 ***
 
-# A Sneak Peek into widely used Blockchain frameworks
+A quick Rundown
+- [Blcokchain Quick Overview](#Blcokchain-Quick-Overview)
+	
+	- [A Sneak Peek into widely used Blockchain frameworks](#A-Sneak-Peek-into-widely-used-Blockchain-frameworks)
+	- [When to use Which Framework](#When-to-use-Which-Framework)
 
-Sneak Peek into various commonly known Blockchain frameworks
+- [1 Hyperledger Fabric HLF](#1-Hyperledger-Fabric-HLF)
+- [2 AWS Quantum Ledger Database QLDB](#2-AWS-Quantum-Ledger-Database-QLDB)
+- [3 AWS Managed Blcokchain AMB](#3-AWS-Managed-Blcokchain-AMB)
+
+
+# Blcokchain Quick Overview 
+
+### A Sneak Peek into widely used Blockchain frameworks
+
+Sneak Peek into various commonly known Blockchain frameworks 
+- **DAPP**: Blcokchain is a DAPPs (Decentralized Applications). 
+- ** Data Provenance**: Blcokchain comes baked in with *Data Provenance* by offering *immutable and cryptographically verifiable record of transactions* 
+- **"Blcokchain" vis-a-vis "Today’s Systems of Record"**: Please refer to the link to know what difeference Blcokchain brings vis-a-vis *Today’s Systems of Record*.
+
+- Blcokchain Frameworks do vary based on distinct needs, i.e., please choose the right framework from very many Blockchain framework options based on whether you need 
+	- a Centralized ledger database,
+	- or a Multi-party, 
+	- or a Fully managed blockchain network that helps eliminate intermediaries.
+- However, The commonality amongst All of the types of available frameworks
+	- each offers an *immutable and cryptographically verifiable record of transactions* 
+	- each one is also available in *DOCKER (containers)*
+	- One can use *Kubernetes (CaaS)* to seamlessly manage and govern these Blockchain containerized workload with the High availability, Auto Scalability, Self healing NFRs. 
+
+- "Today’s Systems of Record" (Distributed Database/ Ledger) vis-a-vis "Blcokchain" (The Future network of Distributed & Decentralized Database/Ledger):
+	from the Financial institutions prism POV - 
+
+|"Today’s Systems of Record" (Distributed Database/ Ledger) | "Blcokchain" (The Future network of Distributed & Decentralized Database/Ledger)|
+| :--: | :--: |
+|<img src="/img/current_fin_network_SOR.png" width="300" Height="250" />|<img src="/img/future_net_BLOCHAIN.png" width="300" Height="250" />|
+|Click on above image for full view|Click on above image for full view|
+|**private programs** & **private Ledger** for Every participant | **shared programs** and **shared ledgers** for Every participant|
+
+*Traditional SOR has all the members of a **business network** transact with each other, but they maintain **separate records of their transactions** *.
+
+### Blcokchain Frameworks Overview
+
+Just a sneak peek into Blcokchain Frameworks through Infographics:
 
 |Blcokchain Framework Conceptual difference | Broader View of Blcokchain Framework|  Commonly used Blcokchain Framework|
 | :--: | :--: | :--: |
 |<img src="/img/conceptualBC.png" width="300" Height="250" />|<img src="/img/broaderBC.png" width="300" Height="250" />|<img src="/img/commonBC.png" width="300" Height="250" />|
 |Click on above image for full view|Click on above image for full view|Click on above image for full view|
 
-Blcokchain Frameworks do vary based on distinct needs, i.e., please choose your the right framework from very many Blockchain framework options based on whether you need 
- - a Centralized ledger database,
- - or a Multi-party, 
- - or a Fully managed blockchain network that helps eliminate intermediaries.
- 
-The commonality amongst All of the above frameworks: 
-- each offers an *immutable and cryptographically verifiable record of transactions* 
-- each one is also available in *DOCKER (containers)*
-- One can use *CaaS (Kubernetes)* to seamlessly manage and govern these Blockchain containerized workload with the High availability, Auto Scalability, Self healing NFRs.  
+### When to use Which Framework
 
-# [1] Hyperledger Fabric HLF
+Q. A Specific Question, per say : *"When to use Hyperledger Fabric & When to use Etherum?"*
 
-HLF is one of the Framework from "HL Framework & Tools ecosystem" with the primary objective to provide **Permissioned with Channel Support**.
+A. Hyperledger Fabric is well-suited for applications that require *stringent privacy and permission controls with a known set of members*.
+     - for example, a ```financial application``` where certain ```trade-related data is only shared with select banks``` .
+	 - Ethereum can also be used for joining a public Ethereum blockchain network.
+	 
+   Whereas, Ethereum is well-suited for highly distributed blockchain networks where transparency of data for all members is important, 
+	 - for example, a ```customer loyalty``` blockchain network that allows ```any retailer in the network to independently verify a user's activity across all members to redeem benefits```. 
 
+# 1 Hyperledger Fabric HLF
+- The Linux Foundation founded the Hyperledger project in Y2015 to advance cross-industry blockchain technologies. 
+- HLF is one of the Framework from *"HL Framework & Tools ecosystem"* with the primary objective to provide **Permissioned with Channel Support**. i.e., HLF is one of the blockchain projects within Hyperledger.
 
-### Vantage view of Hyperledger HL 
+- Like other blockchain technologies (Etherum), it also has 
+		- a ledger, 
+		- uses smart contracts, 
+		- participants manage their transactions,
+		- Data Provenance* by offering *immutable and cryptographically verifiable record of transactions* 
+		
+- Unlike other Blockchain technologies (Ethereum), it differs as
+		- private and permissioned,
+		- No open permissionless system,
+		- No unpermissioned entry to any member/*unknown identities* to participate in the network,
+		- No PoW ( “proof of work” protocol to validate transactions and secure the network),
+		- Membership Service Provider (MSP):  Restricted Entry to Members of a Hyperledger Fabric network enroll through a trusted MSP
+
+Here is the 'Vantage view of Hyperledger Framework & Tools' - 
 
 Broader ecosystem of *HL Framework & Tools:*
 
@@ -63,16 +116,30 @@ Broader ecosystem of *HL Framework & Tools:*
 
 ### Key Concpets of HLF
 
+- [Hyperledger Fabric Model]()
+- [Blockchain network]()
+- [Identity]()
+- [Membership Service Provider MSP]
+- [Policies]
+- [Peers]
+- [Ledger]
+- [The Ordering Service]
+- [Smart Contracts and Chaincode]
+- [Fabric chaincode lifecycle]
+- [Private data]
+- [Channel capabilities]
 
-# [2] AWS Quantum Ledger Database QLDB
+### Use Cases of HLF
 
+
+# 2 AWS Quantum Ledger Database QLDB
 
 ### Key Concpets of QLDB
 
-# [2] AWS  (QLDB)
 
+# 3 AWS Managed Blcokchain AMB
 
-### Key Concpets of QLDB
+### Key Concpets of AMB
 
 # Reference
 [1]
