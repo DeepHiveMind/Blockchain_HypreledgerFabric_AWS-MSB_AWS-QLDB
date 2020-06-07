@@ -13,11 +13,15 @@
 	
 - [(2) AWS Quantum Ledger Database QLDB](#AWS-Quantum-Ledger-Database-QLDB)
 	- [Overview of AWS QLBD](#Overview-of-AWS-QLBD)
-	- [Use Cases application of QLDB for Data ENGINEERS & DATA ARCHITECTS](#Use-Cases-application-of-QLDB-for-DATA-ENGINEERS-and-DATA-ARCHITECTS)
-	- [Implementation Architecture Solution using QLDB](#Implementation-Architecture-Solution-using-QLDB)
+	- [PYTHON client API for AWS QLDB](#PYTHON-client-API-for-AWS-QLDB)
 	
 - [(3) AWS Managed Blcokchain AMB](#AWS-Managed-Blcokchain-AMB)
 
+- [Use Case Application 1]
+	- [Application of Blockchain for DATA TRUST in ENTERPRISE DATA ENGINEERING](#Application-of-Blockchain-for-DATA-TRUST-in-ENTERPRISE-DATA-ENGINEERING)
+	- [Solution Architecture Solution using QLDB](#Solution-Architecture-using-QLDB)
+	
+- [Use Case Application 2]
 
 This repo primarily intends to canvass for 3 following major framework/services for Blcokchain
 - **Hyperledger-Fabric** 
@@ -49,6 +53,12 @@ Please note:
 
 
 # Blcokchain Quick Overview 
+
+A blockchain is a **cryptographic database** maintained by a network of computers, each of which **stores a copy of the most up-to-date version**. A blockchain protocol is a set of rules that dictate how the computers in the network, called nodes, should **verify new transactions** and **add them to the database**. The protocol employs 
+- cryptography, 
+- game theory, 
+- and economics to create incentives for the nodes to work toward securing the network instead of attacking it for personal gain.
+If set up correctly, this system can make it extremely difficult and expensive to add false transactions but relatively easy to verify valid ones.
 
 ### Multiple Blcokchain Frameworks
 
@@ -288,7 +298,7 @@ Please refer to the [link](https://docs.aws.amazon.com/qldb/latest/developerguid
 
 ### Key Concpets of AMB
 
-# Use Cases Application 
+# Use Cases Application 1
 
 ### Application of Blockchain for DATA TRUST in ENTERPRISE DATA ENGINEERING	
 
@@ -321,6 +331,33 @@ Architecture Solution using QLDB for above use case application:
 
 <img src="/img/Architecture_QLDB_non-traditionalSOR.png" width="900" Height="500" />
 
+
+# Use Cases Application 2
+
+### Application of Blockchain for CIRCULAR SUPPLY CHAIN	with IoT
+Business Techo Problem statement 
+- CIRCULAR SUPPLY CHAIN	with IoT
+- Continuous Monitoring & Notification for SAFE ENVIRONMENTAL CONDITION for raw crop produce SHIPMENTs in TRANSPORATION
+- right credit attribution to the Farmers
+
+- Enabling **SMOOTH ADOPTION** of blockchain (HL FABRIC)
+	- how to right size the load for blockchain?
+	- How to cost optimize the adoption of blockchain?
+	- how to manage, deploy, autoscale, descale container Blockchian network (HL FABRIC)?
+	- how to monitor the nodes used for blockchain network cluster?
+	- how to secure member's keys created for each member for accessing blockchain network? Possibly securing/fortifying keys in hardware using AWSCloud HSM.
+	
+*Please Note*
+The fundatmental technology of blockchain is crpytography. Crptography works on KEYS. Hence, Keys become very important part of the solution.
+	
+
+
+### Solution Architecture Solution using Hyperledger FABRIC, DOCKER, AWS EKS, AWS IOT, HSM
+
+Architecture Solution using QLDB for above use case application:
+
+<img src="/img/IOTArchitecure.jpg" width="900" Height="500" />
+[Video](https://www.youtube.com/watch?v=5CwIt-Alqhg)
 
 # Reference
 [1]
