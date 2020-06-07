@@ -33,11 +33,19 @@ A quick Rundown
 - [Blcokchain Quick Overview](#Blcokchain-Quick-Overview)
 	
 	- [A Sneak Peek into widely used Blockchain frameworks](#A-Sneak-Peek-into-widely-used-Blockchain-frameworks)
+	- [Multiple Blcokchain Frameworks](#Multiple-Blcokchain-Frameworks)
 	- [When to use Which Framework](#When-to-use-Which-Framework)
 
-- [1 Hyperledger Fabric HLF](#1-Hyperledger-Fabric-HLF)
-- [2 AWS Quantum Ledger Database QLDB](#2-AWS-Quantum-Ledger-Database-QLDB)
-- [3 AWS Managed Blcokchain AMB](#3-AWS-Managed-Blcokchain-AMB)
+- [(1) Hyperledger Fabric HLF](#Hyperledger-Fabric-HLF)
+	- [Overview of Hyperledger Framework & Tools](#Overview-of-Hyperledger-Framework-and-Tools)
+	- [Key Concpets of HLF](#Key-Concpets-of-HLF)
+	
+- [(2) AWS Quantum Ledger Database QLDB](#AWS-Quantum-Ledger-Database-QLDB)
+	- [Overview of AWS QLBD](#Overview-of-AWS-QLBD)
+	- [Use Cases application of QLDB for Data ENGINEERS & DATA ARCHITECTS](#Use-Cases-application-of-QLDB-for-DATA-ENGINEERS-and-DATA-ARCHITECTS)
+	- [Implementation Architecture Solution using QLDB](#Implementation-Architecture-Solution-using-QLDB)
+	
+- [(3) AWS Managed Blcokchain AMB](#AWS-Managed-Blcokchain-AMB)
 
 
 # Blcokchain Quick Overview 
@@ -86,7 +94,7 @@ SOR vs Blcokchain from **Business Network** standpoint:
  
 
 
-### Blcokchain Frameworks Overview
+### Multiple Blcokchain Frameworks
 
 Just a sneak peek into Blcokchain Frameworks through Infographics:
 
@@ -106,7 +114,7 @@ A. Hyperledger Fabric is well-suited for applications that require *stringent pr
    Whereas, Ethereum is well-suited for highly distributed blockchain networks where transparency of data for all members is important, 
 	 - for example, a ```customer loyalty``` blockchain network that allows ```any retailer in the network to independently verify a user's activity across all members to redeem benefits```. 
 
-# 1 Hyperledger Fabric HLF
+# Hyperledger Fabric HLF
 - The Linux Foundation founded the Hyperledger project in Y2015 to advance cross-industry blockchain technologies. 
 - HLF is one of the Framework from *"HL Framework & Tools ecosystem"* with the primary objective to provide **Permissioned with Channel Support**. i.e., HLF is one of the blockchain projects within Hyperledger.
 
@@ -123,7 +131,7 @@ A. Hyperledger Fabric is well-suited for applications that require *stringent pr
 		- No PoW ( “proof of work” protocol to validate transactions and secure the network),
 		- Membership Service Provider (MSP):  Restricted Entry to Members of a Hyperledger Fabric network enroll through a trusted MSP
 
-Here is the 'Vantage view of Hyperledger Framework & Tools' - 
+### Overview of Hyperledger Framework and Tools 
 
 Broader ecosystem of *HL Framework & Tools:*
 
@@ -181,45 +189,51 @@ The same *protocol* and *Algo* is used in **Progrium Consul** (a distributed com
 
 
 
-# 2 AWS Quantum Ledger Database QLDB
+# AWS Quantum Ledger Database QLDB
 
-AWS QLDB  
-	- is **Scalable**
-	- is **Serverless**
-	- provides a **centralized ledger** for auditing and record keeping purposes
-	- Offers **Verifiability** - verifies integrity of past records 
-	- can **trigger AWS Lambda events** to process other *downstream workflows* 
-	- can be provisoned with **AWS ClouFormation (IaC)** with additional user level control from clinet side with **IAM & ACL**
-	- can integrate with **other AWS PaaS Services**
+### Overview of AWS QLBD
+AWS QLDB
+- is **Scalable**
+- is **Serverless**
+- provides a **centralized ledger** for auditing and record keeping purposes
+- Offers **Verifiability** - verifies integrity of past records 
+- can be provisoned with **AWS ClouFormation (IaC)** with additional user level control from clinet side with **IAM & ACL**
+- can **trigger AWS Lambda events** to process other *downstream workflows* 
+- can integrate with **other AWS PaaS Services**
 	
-### Use Cases and Architecture of QLDB for Data ENGINEERS & DATA ARCHITECTS**	
+### Use Cases application of QLDB for DATA ENGINEERS and DATA ARCHITECTS	
 
 *Use Case:*
 
-Businesses & Regulatory compliance (e.g., GDPR) often need a Data Lake / Data Foundation / System-of-Engagmemt to have 
+Businesses, Regulatory compliance (e.g., GDPR) often need a Data Lake / Data Foundation / System-of-Engagmemt to have Comprehensive Data Trust pillars (audit, provenance, Lineage, Verifiability). But, the Organization (a large FinTech Org) wants to have Furute-gen architecture which can provide
+
+- enablement of the Comprehensive Data Trust pillars (audit, provenance, Lineage, Verifiability)**@port-of-entry** of System-of-Engagmemt
+  ```
 	- auditing capability to keep track of critical data 
 	- Data Provenance 
 	- complete history of assets / Data Lineage
 	- Verifiability : a verification mechanism to verify integrity of past records
+  ```
+- Post enablement of DATA TRUST pillars @port-of-entry, it should be able to trigger serverless-processing or serverless-workflows for 
+  ```
+	- caching the history for querying in Amazon Elasticsearch, 
+	- transforming and loading the data into an Amazon Redshift cluster, and 
+	- also storing the data in an Amazon S3 data lake.
+   ```
+- for critical events originating from **Streaming sources**, such as "*credit* and *debit transactions* across bank accounts", and also
+- for critical datasets generating from **Batch sources**, such as "history of assets for Loan lending to Orgs/customers like vehicle maintenance records /or/ Lending application records".
 
-So, an Architecture is required for Financial Institue to ensnure 
-     - enablement of the Comprehensive Data Trust pillars (audit, provenance, Lineage, Verifiability) @port-of-entry of System-of-Engagmemt
-		- for critical data generating from Streaming sources, such as "*credit* and *debit transactions* across bank accounts"
-		- for critical data generating from batch sources, such as "history of assets for Loan lending to Orgs/customers" like vehicle maintenance records /or/ Lending application records.
-	- Post enablement of DATA TRUST pillars @port-of-entry, it should be able to trigger serverless-process or serverless-workflows for 
-		- caching the history for querying in Amazon Elasticsearch, 
-		- transforming and loading the data into an Amazon Redshift cluster, and 
-		- also storing the data in an Amazon S3 data lake.
 
-*Architecture Solution using QLDB:*
+### Solution Architecture Solution using QLDB
 
+Architecture Solution using QLDB for above use case application:
 
 <img src="/img/Architecture_QLDB_non-traditionalSOR.png" width="900" Height="500" />
 
 	
 
 
-# 3 AWS Managed Blcokchain AMB
+# AWS Managed Blcokchain AMB
 
 ### Key Concpets of AMB
 
