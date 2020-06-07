@@ -34,8 +34,8 @@ Sneak Peek into various commonly known Blockchain frameworks
 
 |Blcokchain Framework Conceptual difference | Broader View of Blcokchain Framework|  Commonly used Blcokchain Framework|
 | :--: | :--: | :--: |
-|<img src="/img/conceptualBC.png" width="300" Height="300" />|<img src="/img/broaderBC.png" width="300" Height="300" />|<img src="/img/commonBC.png" width="300" Height="300" />|
-|Click on the image for full view|
+|<img src="/img/conceptualBC.png" width="300" Height="450" />|<img src="/img/broaderBC.png" width="300" Height="400" />|<img src="/img/commonBC.png" width="300" Height="400" />|
+|Click on above image for full view|Click on above image for full view|Click on above image for full view|
 
 # Hyperledger Fabric HLF
 
