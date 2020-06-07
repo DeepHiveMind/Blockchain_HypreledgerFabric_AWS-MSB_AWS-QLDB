@@ -116,18 +116,50 @@ Broader ecosystem of *HL Framework & Tools:*
 
 ### Key Concpets of HLF
 
-- [Hyperledger Fabric Model]()
-- [Blockchain network]()
-- [Identity]()
-- [Membership Service Provider MSP]
-- [Policies]
-- [Peers]
-- [Ledger]
-- [The Ordering Service]
-- [Smart Contracts and Chaincode]
-- [Fabric chaincode lifecycle]
-- [Private data]
-- [Channel capabilities]
+- Blockchain network:
+	A blockchain network is a technical infrastructure that provides ledger and smart contract (chaincode) services to applications
+
+- Block & Chain: 
+	A block contains an ordered set of transactions. It is cryptographically linked to the preceding block, and in turn it is linked to be subsequent blocks.
+
+	The ledger’s chain is a transaction log structured as hash-linked blocks of transactions. Suuch as, Blockchain B contains blocks 0, 1, 2.
+	
+- Smart Contract:
+
+	A smart contract is code (invoked by a client application external to the blockchain network) that manages access and modifications to a set of *key-value pairs* in the *World State* via Transaction.
+
+	
+- Chain Code:
+
+	In Hyperledger Fabric, smart contracts are packaged as chaincode. Chaincode is installed on peers and then defined and used on one or more channels.
+
+- World State:
+
+	*World state* maintains  “current state” of transaction in Ledger, and such data is stored in a state database for efficient reads and queries from chaincode. Supported databases include - *couchDB*.
+	
+- Channel:
+	
+	A channel is a private blockchain *overlay* which allows for data isolation and confidentiality. A channel-specific ledger is shared across the peers in the channel, and transacting parties must be authenticated to a channel in order to interact with it. Channels are defined by a *Configuration-Block*.
+	
+- Membership Service Provider:
+
+	MSP refers to an abstract component of the system that provides credentials to clients, and peers for them to participate in HLF.
+
+- Ordering Service:
+
+	Also known as orderer. A defined collective of nodes that orders transactions into a block and then distributes blocks to connected peers for validation and commit. The ordering service exists independent of the peer processes and orders transactions on a first-come-first-serve basis for all channels on the network.
+
+
+***
+HLF also leverages *Gossip Protocol* & *Raft Algo* for following 3 major functions:
+	- 1) manages peer discovery and channel membership; 
+	- 2) disseminates ledger data across all peers on the channel; 
+	- 3) syncs ledger state across all peers on the channel
+
+The same *protocol* and *Algo* is used in **Progrium Consul** (a distributed computing CONSENSUS Algo for Leader election and worker management), and it is applied in Seneca (a Microservice Framework on Nodejs)
+***
+
+
 
 ### Use Cases of HLF
 
