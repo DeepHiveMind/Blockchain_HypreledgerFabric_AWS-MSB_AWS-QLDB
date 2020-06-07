@@ -19,20 +19,19 @@
 
 
 This repo primarily intends to canvass for 3 following major framework/services for Blcokchain
-	- **Hyperledger-Fabric** 
-	- **AWS-QLDB (AWS Quantum Ledger Database)**
-	- **AWS-MSB (AWS Managed Blockchain)**
-- Real world application of one of above Blockhain service 
-	- **Use Cases application of Blockchain Network for Data ENGINEERS & DATA ARCHITECTS**
+- **Hyperledger-Fabric** 
+- **AWS-QLDB (AWS Quantum Ledger Database)**
+- **AWS-MSB (AWS Managed Blockchain)**
+Real world application of one of above Blockhain service 
+	- **Use Cases application of Blockchain Network for ENTERPRISE DATA LAKE ENGINEERING and for DATA ARCHITECTS**
 	- Digital Asset Management
 
 
-
-* For the ease of addressing, hereon, I'll use following pairs of terms interchangably - 
- - Hyperledger-Fabric as **HLF**
- - Hyperledger as **HL**
- - AWS-QLDB as **QLDB**
- - AWS MSB as **MSB**
+*For the ease of addressing, hereon, I'll use following pairs of terms interchangably* - 
+- Hyperledger-Fabric as **HLF**
+- Hyperledger as **HL**
+- AWS-QLDB as **QLDB**
+- AWS MSB as **MSB**
  
 ***
 This repo primarily intends to offer distillation of my experience in 3 major Blcokchain frameworks - HLF, QLDB & MSB. 
