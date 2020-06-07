@@ -23,6 +23,7 @@ This repo primarily intends to canvass for 3 following major framework/services 
 	- **AWS-QLDB (AWS Quantum Ledger Database)**
 	- **AWS-MSB (AWS Managed Blockchain)**
 - Real world application of one of above Blockhain service 
+	- **Use Cases application of Blockchain Network for Data ENGINEERS & DATA ARCHITECTS**
 	- Digital Asset Management
 
 
@@ -48,50 +49,6 @@ Please note:
 
 # Blcokchain Quick Overview 
 
-### A Sneak Peek into widely used Blockchain frameworks
-
-Sneak Peek into various commonly known Blockchain frameworks 
-- *DAPP*: Blcokchain is a DAPPs (Decentralized Applications). 
-- * Data Provenance*: Blcokchain comes baked in with *Data Provenance* by offering *immutable and cryptographically verifiable record of transactions* 
-- *"Blcokchain" vis-a-vis "Today’s Systems-of-Record"*: A VERY IMP PERSPECTIVE for **ENTERPRISE DATA PROCESSING & DATA LAKE ARCHITECTS**
-	```	
-		- "Today’s Systems-of-Record" is a
-				- *'Distributed Database/ Ledger Management system'* wherein all the members of a **business network** transact with each other, but they maintain **separate records of their transactions**.
-				
-				- Businesses & Regulatory compliance (e.g., GDPR) often need a system-of-record application with **(a) Auditing capability** to keep track of critical data, **(b) establish Data provenance**, and **(c) Verifiability** to evolve it to  **TRUSTED SOR or Systems-of-engagement (DWH/ Data lake)**.
-				
-				- Yes! we know,Building TRUST (audit functionality & Verifiability) with relational databases/NOSQL Distributed Databases 
-						- is time-consuming
-						- prone to human error. 
-						- requires custom development, and 
-						- verifiability is even more tougher assince relational databases/ NOSQL DBs are not inherently immutable, any **unintended changes** to the data are hard to track and verify.
-		
-		- "Blcokchain" is the Future network which answers aforemention inherent challanges with traditional SOR 
-				- with *'Distributed' & 'Decentralized' Database/ Ledger Management system* 
-				- wherein auditing, record keeping and **Data provenance** comes baked in 
-	```
-	
-SOR vs Blcokchain from **Business Network** standpoint:
-
-|"Today’s Systems-of-Record" (Distributed Database or Ledger) | "Blcokchain" (The Future network of Distributed and Decentralized Database or Ledger)|
-| :--: | :--: |
-|<img src="/img/current_fin_network_SOR.png" width="300" Height="250" />|<img src="/img/future_net_BLOCHAIN.png" width="300" Height="250" />|
-|Click on above image for full view|Click on above image for full view|
-|**private programs** & **private Ledger** for Every participant | **shared programs** and **shared ledgers** for Every participant|
-
-
-- Blcokchain Frameworks do vary based on distinct needs, i.e., please choose the right framework from very many Blockchain framework options based on whether you need 
-	- a Centralized ledger database,
-	- or a Multi-party, 
-	- or a Fully managed blockchain network that helps eliminate intermediaries.
-- However, The commonality amongst All of the types of available frameworks
-	- each offers an *immutable and cryptographically verifiable record of transactions* 
-	- each one is also available in *DOCKER (containers)*
-	- One can use *Kubernetes (CaaS)* to seamlessly manage and govern these Blockchain containerized workload with the High availability, Auto Scalability, Self healing NFRs. 
-
- 
-
-
 ### Multiple Blcokchain Frameworks
 
 Just a sneak peek into Blcokchain Frameworks through Infographics:
@@ -100,6 +57,29 @@ Just a sneak peek into Blcokchain Frameworks through Infographics:
 | :--: | :--: | :--: |
 |<img src="/img/conceptualBC.png" width="300" Height="250" />|<img src="/img/broaderBC.png" width="300" Height="250" />|<img src="/img/commonBC.png" width="300" Height="250" />|
 |Click on above image for full view|Click on above image for full view|Click on above image for full view|
+
+### A Sneak Peek into the FEATURES of widely used Blockchain frameworks
+
+Sneak Peek into the FEATURES of various commonly known Blockchain frameworks: 
+
+
+Blcokchain Frameworks do vary based on distinct needs, i.e., please choose the right framework from very many Blockchain framework options based on whether you need 
+- a **Centralized ledger** database {such as Etherum (Public)/ AWS QLDB (Private)},
+- or a **Multi-party** {Channel Management for multiple stakeholder Scenario - such as Hyperledger Fabric}, 
+- or a **Fully managed blockchain network** that helps eliminate intermediaries {such as, AWS Managed Blockchian on HLF}
+	
+However, The commonality amongst All of the types of available frameworks
+- **DAPP**: Blcokchain is a DAPPs (Decentralized Applications). 
+- **Data Provenance**: Blcokchain comes baked in with *Data Provenance* by offering *immutable and cryptographically verifiable record of transactions* 
+- each offers an **immutable** and **cryptographically verifiable record of transactions** 
+- each one is also available in **DOCKER (containers)**
+- Full Scale Operationalization Paradigm: **BlcokchainOps**: *DevOps in Blockchain*-  One can use **Kubernetes (CaaS)** to seamlessly manage and govern these Blockchain containerized network, workloads (smart contracts, Member registry et al) with the High availability, Auto Scalability, Self healing NFRs. 
+
+ 
+SOR vs Blcokchain from **Business Network** standpoint:
+
+
+
 
 ### When to use Which Framework
 
@@ -111,6 +91,46 @@ A. Hyperledger Fabric is well-suited for applications that require *stringent pr
 	 
    Whereas, Ethereum is well-suited for highly distributed blockchain networks where transparency of data for all members is important, 
 	 - for example, a ```customer loyalty``` blockchain network that allows ```any retailer in the network to independently verify a user's activity across all members to redeem benefits```. 
+	 
+### Blockchain for DATA TRUST in ENTERPRISE DATA LAKE ENGINEERING world
+
+Businesses & Regulatory compliance (e.g., GDPR) often need a system-of-record application with 
+ - **(a) Auditing capability** to keep track of critical data, 
+ - **(b) establish Data provenance**, 
+ - **(c) Verifiability** 
+ in order to evolve it to the maturity of **TRUSTED SOR or Systems-of-engagement (DWH/ Data lake)**.
+				
+We all know, *building TRUST (audit functionality & Verifiability)* with **Next Gen Distributed Relational databases/NOSQL Distributed Databases** 
+- requires **custom development**,
+- is **time-consuming**,
+- prone to human error,
+- as in case of relational databases/ NOSQL DBs are not inherently *immutable*, any **unintended changes** to the data are hard to track and verify. **verifiability** is tougher implementation ask.
+
+*BLOCKCHAIN NETWORK IS THE SILVER BULLET FOR SUCH SCENARIO IN DATA ENGINEERING AND DATA LAKE TRUST.*.
+
+**"Blcokchain" vis-a-vis "Today’s Systems-of-Record"**: 
+{A VERY IMP PERSPECTIVE for **ENTERPRISE DATA PROCESSING & DATA LAKE ARCHITECTS**}
+   ```	
+"Today’s Systems-of-Record" is a
+	- *'Distributed Database/ Ledger Management system'* 
+	- wherein all the members of a **business network** transact with each other, 
+	- but they maintain **separate records of their transactions**.
+				
+				- 
+		
+		- "Blcokchain" is the Future network which answers aforemention inherent challanges with traditional SOR 
+				- with *'Distributed' & 'Decentralized' Database/ Ledger Management system* 
+				- wherein auditing, record keeping and **Data provenance** comes baked in 
+```
+	
+	
+
+|"Today’s Systems-of-Record" (Distributed Database or Ledger) | "Blcokchain" (The Future network of Distributed and Decentralized Database or Ledger)|
+| :--: | :--: |
+|<img src="/img/current_fin_network_SOR.png" width="300" Height="250" />|<img src="/img/future_net_BLOCHAIN.png" width="300" Height="250" />|
+|Click on above image for full view|Click on above image for full view|
+|**private programs** & **private Ledger** for Every participant | **shared programs** and **shared ledgers** for Every participant|
+
 
 # Hyperledger Fabric HLF
 - The Linux Foundation founded the Hyperledger project in Y2015 to advance cross-industry blockchain technologies. 
