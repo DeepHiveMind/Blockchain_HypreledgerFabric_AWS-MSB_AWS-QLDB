@@ -1,10 +1,11 @@
 # Blockchain Hyperledger-Fabric AWS-QLDB AWS-MSB
  
 This repo primarily intends to offer  
+- A Sneak peek 
 - canvassing of 3 major framework/services for Blcokchain
 	- **Hyperledger-Fabric** 
 	- **AWS-QLDB (AWS Quantum Ledger Database)**
-	- **AWS-MSB (AWS Managed Service Blockchain)**
+	- **AWS-MSB (AWS Managed Blockchain)**
 - Real world application of one of above Blockhain service 
 	- Digital Asset Management
 
@@ -37,7 +38,17 @@ Sneak Peek into various commonly known Blockchain frameworks
 |<img src="/img/conceptualBC.png" width="300" Height="250" />|<img src="/img/broaderBC.png" width="300" Height="250" />|<img src="/img/commonBC.png" width="300" Height="250" />|
 |Click on above image for full view|Click on above image for full view|Click on above image for full view|
 
-# Hyperledger Fabric HLF
+Blcokchain Frameworks do vary based on distinct needs, i.e., please choose your the right framework from very many Blockchain framework options based on whether you need 
+ - a Centralized ledger database,
+ - or a Multi-party, 
+ - or a Fully managed blockchain network that helps eliminate intermediaries.
+ 
+The commonality amongst All of the above frameworks: 
+- each offers an *immutable and cryptographically verifiable record of transactions* 
+- each one is also available in *DOCKER (containers)*
+- One can use *CaaS (Kubernetes)* to seamlessly manage and govern these Blockchain containerized workload with the High availability, Auto Scalability, Self healing NFRs.  
+
+# [1] Hyperledger Fabric HLF
 
 HLF is one of the Framework from "HL Framework & Tools ecosystem" with the primary objective to provide **Permissioned with Channel Support**.
 
@@ -53,11 +64,15 @@ Broader ecosystem of *HL Framework & Tools:*
 ### Key Concpets of HLF
 
 
-# AWS QLDB (QLDB)
+# [2] AWS Quantum Ledger Database QLDB
 
 
 ### Key Concpets of QLDB
 
+# [2] AWS  (QLDB)
+
+
+### Key Concpets of QLDB
 
 # Reference
 [1]
