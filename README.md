@@ -61,13 +61,13 @@ Sneak Peek into various commonly known Blockchain frameworks
 - "Today’s Systems of Record" (Distributed Database/ Ledger) vis-a-vis "Blcokchain" (The Future network of Distributed & Decentralized Database/Ledger):
 	from the Financial institutions prism POV - 
 
-|"Today’s Systems of Record" (Distributed Database/ Ledger) | "Blcokchain" (The Future network of Distributed & Decentralized Database/Ledger)|
+|"Today’s Systems of Record" (Distributed Database or Ledger) | "Blcokchain" (The Future network of Distributed and Decentralized Database or Ledger)|
 | :--: | :--: |
 |<img src="/img/current_fin_network_SOR.png" width="300" Height="250" />|<img src="/img/future_net_BLOCHAIN.png" width="300" Height="250" />|
 |Click on above image for full view|Click on above image for full view|
 |**private programs** & **private Ledger** for Every participant | **shared programs** and **shared ledgers** for Every participant|
 
-*Traditional SOR has all the members of a **business network** transact with each other, but they maintain **separate records of their transactions** *.
+*Traditional SOR has all the members of a **business network** transact with each other, but they maintain **separate records of their transactions**. *
 
 ### Blcokchain Frameworks Overview
 
