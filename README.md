@@ -45,9 +45,34 @@ A quick Rundown
 ### A Sneak Peek into widely used Blockchain frameworks
 
 Sneak Peek into various commonly known Blockchain frameworks 
-- **DAPP**: Blcokchain is a DAPPs (Decentralized Applications). 
-- ** Data Provenance**: Blcokchain comes baked in with *Data Provenance* by offering *immutable and cryptographically verifiable record of transactions* 
-- **"Blcokchain" vis-a-vis "Today’s Systems of Record"**: Please refer to the link to know what difeference Blcokchain brings vis-a-vis *Today’s Systems of Record*.
+- *DAPP*: Blcokchain is a DAPPs (Decentralized Applications). 
+- * Data Provenance*: Blcokchain comes baked in with *Data Provenance* by offering *immutable and cryptographically verifiable record of transactions* 
+- *"Blcokchain" vis-a-vis "Today’s Systems-of-Record"*: A VERY IMP PERSPECTIVE for **ENTERPRISE DATA PROCESSING & DATA LAKE ARCHITECTS**
+	```	
+		- "Today’s Systems-of-Record" is a
+				- *'Distributed Database/ Ledger Management system'* wherein all the members of a **business network** transact with each other, but they maintain **separate records of their transactions**.
+				
+				- Businesses & Regulatory compliance (e.g., GDPR) often need a system-of-record application with **(a) Auditing capability** to keep track of critical data, **(b) establish Data provenance**, and **(c) Verifiability** to evolve it to  **TRUSTED SOR or Systems-of-engagement (DWH/ Data lake)**.
+				
+				- Yes! we know,Building TRUST (audit functionality & Verifiability) with relational databases/NOSQL Distributed Databases 
+						- is time-consuming
+						- prone to human error. 
+						- requires custom development, and 
+						- verifiability is even more tougher assince relational databases/ NOSQL DBs are not inherently immutable, any **unintended changes** to the data are hard to track and verify.
+		
+		- "Blcokchain" is the Future network which answers aforemention inherent challanges with traditional SOR 
+				- with *'Distributed' & 'Decentralized' Database/ Ledger Management system* 
+				- wherein auditing, record keeping and **Data provenance** comes baked in 
+	```
+	
+SOR vs Blcokchain from **Business Network** standpoint:
+
+|"Today’s Systems-of-Record" (Distributed Database or Ledger) | "Blcokchain" (The Future network of Distributed and Decentralized Database or Ledger)|
+| :--: | :--: |
+|<img src="/img/current_fin_network_SOR.png" width="300" Height="250" />|<img src="/img/future_net_BLOCHAIN.png" width="300" Height="250" />|
+|Click on above image for full view|Click on above image for full view|
+|**private programs** & **private Ledger** for Every participant | **shared programs** and **shared ledgers** for Every participant|
+
 
 - Blcokchain Frameworks do vary based on distinct needs, i.e., please choose the right framework from very many Blockchain framework options based on whether you need 
 	- a Centralized ledger database,
@@ -58,16 +83,8 @@ Sneak Peek into various commonly known Blockchain frameworks
 	- each one is also available in *DOCKER (containers)*
 	- One can use *Kubernetes (CaaS)* to seamlessly manage and govern these Blockchain containerized workload with the High availability, Auto Scalability, Self healing NFRs. 
 
-- "Today’s Systems of Record" (Distributed Database/ Ledger) vis-a-vis "Blcokchain" (The Future network of Distributed & Decentralized Database/Ledger):
-	from the Financial institutions prism POV - 
+ 
 
-|"Today’s Systems of Record" (Distributed Database or Ledger) | "Blcokchain" (The Future network of Distributed and Decentralized Database or Ledger)|
-| :--: | :--: |
-|<img src="/img/current_fin_network_SOR.png" width="300" Height="250" />|<img src="/img/future_net_BLOCHAIN.png" width="300" Height="250" />|
-|Click on above image for full view|Click on above image for full view|
-|**private programs** & **private Ledger** for Every participant | **shared programs** and **shared ledgers** for Every participant|
-
-*Traditional SOR has all the members of a **business network** transact with each other, but they maintain **separate records of their transactions**. *
 
 ### Blcokchain Frameworks Overview
 
@@ -161,12 +178,45 @@ The same *protocol* and *Algo* is used in **Progrium Consul** (a distributed com
 
 
 
-### Use Cases of HLF
+
 
 
 # 2 AWS Quantum Ledger Database QLDB
 
-### Key Concpets of QLDB
+AWS QLDB  
+	- is **Scalable**
+	- is **Serverless**
+	- provides a **centralized ledger** for auditing and record keeping purposes
+	- Offers **Verifiability** - verifies integrity of past records 
+	- can **trigger AWS Lambda events** to process other *downstream workflows* 
+	- can be provisoned with **AWS ClouFormation (IaC)** with additional user level control from clinet side with **IAM & ACL**
+	- can integrate with **other AWS PaaS Services**
+	
+### Use Cases and Architecture of QLDB for Data ENGINEERS & DATA ARCHITECTS**	
+
+*Use Case:*
+
+Businesses & Regulatory compliance (e.g., GDPR) often need a Data Lake / Data Foundation / System-of-Engagmemt to have 
+	- auditing capability to keep track of critical data 
+	- Data Provenance 
+	- complete history of assets / Data Lineage
+	- Verifiability : a verification mechanism to verify integrity of past records
+
+So, an Architecture is required for Financial Institue to ensnure 
+     - enablement of the Comprehensive Data Trust pillars (audit, provenance, Lineage, Verifiability) @port-of-entry of System-of-Engagmemt
+		- for critical data generating from Streaming sources, such as "*credit* and *debit transactions* across bank accounts"
+		- for critical data generating from batch sources, such as "history of assets for Loan lending to Orgs/customers" like vehicle maintenance records /or/ Lending application records.
+	- Post enablement of DATA TRUST pillars @port-of-entry, it should be able to trigger serverless-process or serverless-workflows for 
+		- caching the history for querying in Amazon Elasticsearch, 
+		- transforming and loading the data into an Amazon Redshift cluster, and 
+		- also storing the data in an Amazon S3 data lake.
+
+*Architecture Solution using QLDB:*
+
+
+<img src="/img/Architecture_QLDB_non-traditionalSOR.png" width="900" Height="500" />
+
+	
 
 
 # 3 AWS Managed Blcokchain AMB
