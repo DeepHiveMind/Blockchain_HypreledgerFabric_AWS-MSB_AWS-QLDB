@@ -63,7 +63,7 @@ Just a sneak peek into Blcokchain Frameworks through Infographics:
 Sneak Peek into the FEATURES of various commonly known Blockchain frameworks: 
 
 
-Blcokchain Frameworks do vary based on distinct needs, i.e., please choose the right framework from very many Blockchain framework options based on whether you need 
+Blcokchain Frameworks do vary based on distinct needs, i.e., please choose the right framework from very many Blockchain technology options based on whether you need 
 - a **Centralized ledger** database {such as Etherum (Public)/ AWS QLDB (Private)},
 - or a **Multi-party** {Channel Management for multiple stakeholder Scenario - such as Hyperledger Fabric}, 
 - or a **Fully managed blockchain network** that helps eliminate intermediaries {such as, AWS Managed Blockchian on HLF}
@@ -81,15 +81,24 @@ However, The commonality amongst All of the types of available frameworks
 
 ### When to use Which Framework
 
-Q. A Specific Question, per say : *"When to use Hyperledger Fabric & When to use Etherum?"*
+**Q. What Blockchain technology/framework should I choose on depending upon varying needs, such as** 
+- public or private Network, 
+- Permissioned Network or permissionless Network,
+- Centralized ledger,
+- Multi-party et al?
+ANS: Blcokchain Frameworks do vary based on distinct needs. Here goes a quick look into the right framework from very many Blockchain technology options based on varying needs- 
+- a **Centralized ledger** database {such as **Etherum (Public)/ AWS QLDB (Private)**},
+- or a **Multi-party** {Channel Management for multiple stakeholder Scenario - such as **Hyperledger Fabric**}, 
+- or a **Fully managed blockchain network** that helps eliminate intermediaries {such as, **AWS Managed Blockchian on HLF/EThrum**}
 
-A. Hyperledger Fabric is well-suited for applications that require *stringent privacy and permission controls with a known set of members*.
-     - for example, a ```financial application``` where certain ```trade-related data is only shared with select banks``` .
-	 - Ethereum can also be used for joining a public Ethereum blockchain network.
+**Q. When to use Hyperledger Fabric & When to use Etherum?**
+ANS: Hyperledger Fabric is well-suited for applications that require *stringent privacy and permission controls with a known set of members*.
+- for example, a ```financial application``` where certain ```trade-related data is only shared with select banks``` 
 	 
-   Whereas, Ethereum is well-suited for highly distributed blockchain networks where transparency of data for all members is important, 
-	 - for example, a ```customer loyalty``` blockchain network that allows ```any retailer in the network to independently verify a user's activity across all members to redeem benefits```. 
-	 
+Whereas, Ethereum is well-suited for highly distributed blockchain networks where transparency of data for all members is important, 
+- for example, a ```customer loyalty``` blockchain network that allows ```any retailer in the network to independently verify a user's activity across all members to redeem benefits```. 
+- Ethereum can also be used for joining a public Ethereum blockchain network.
+
 ### Blockchain for DATA TRUST in ENTERPRISE DATA LAKE ENGINEERING world
 
 Businesses & Regulatory compliance (e.g., GDPR) often need a system-of-record application with 
@@ -132,21 +141,21 @@ SOR vs Blcokchain from **Business Network** standpoint:
 
 
 # Hyperledger Fabric HLF
-- The Linux Foundation founded the Hyperledger project in Y2015 to advance cross-industry blockchain technologies. 
+- The Linux Foundation founded the Hyperledger project in Y2015 to advance **cross-industry** blockchain technologies. 
 - HLF is one of the Framework from *"HL Framework & Tools ecosystem"* with the primary objective to provide **Permissioned with Channel Support**. i.e., HLF is one of the blockchain projects within Hyperledger.
 
 - Like other blockchain technologies (Etherum), it also has 
-		- a ledger, 
-		- uses smart contracts, 
-		- participants manage their transactions,
-		- Data Provenance* by offering *immutable and cryptographically verifiable record of transactions* 
+	- a ledger, 
+	- uses smart contracts, 
+	- participants manage their transactions,
+	- Data Provenance* by offering *immutable and cryptographically verifiable record of transactions* 
 		
 - Unlike other Blockchain technologies (Ethereum), it differs as
-		- private and permissioned,
-		- No open permissionless system,
-		- No unpermissioned entry to any member/*unknown identities* to participate in the network,
-		- No PoW ( “proof of work” protocol to validate transactions and secure the network),
-		- Membership Service Provider (MSP):  Restricted Entry to Members of a Hyperledger Fabric network enroll through a trusted MSP
+	- **private and permissioned**,
+	- **No open permissionless system**,
+	- **No unpermissioned entry** to any member/*unknown identities* to participate in the network,
+	- **No PoW** ( “proof of work” protocol to validate transactions and secure the network),
+	- **Membership Service Provider (MSP)**:  Restricted Entry to Members of a Hyperledger Fabric network enroll through a trusted MSP.
 
 ### Overview of Hyperledger Framework and Tools 
 
