@@ -1,14 +1,15 @@
 # Blockchain Hyperledger-Fabric AWS-QLDB AWS-MSB
  A quick Rundown
 - [Blcokchain Quick Overview](#Blcokchain-Quick-Overview)
-	
-	- [A Sneak Peek into widely used Blockchain frameworks](#A-Sneak-Peek-into-widely-used-Blockchain-frameworks)
 	- [Multiple Blcokchain Frameworks](#Multiple-Blcokchain-Frameworks)
+	- [A Sneak Peek into the FEATURES of widely used Blockchain frameworks](#A-Sneak-Peek-into-the-FEATURES-of-widely-used-Blockchain-frameworks)
+	- [BlockchainOps](#BlockchainOps)
 	- [When to use Which Framework](#When-to-use-Which-Framework)
-
+	- [Blockchain for DATA TRUST in ENTERPRISE DATA LAKE ENGINEERING world](#Blockchain-for-DATA-TRUST-in-ENTERPRISE-DATA-LAKE-ENGINEERING-world)
 - [(1) Hyperledger Fabric HLF](#Hyperledger-Fabric-HLF)
 	- [Overview of Hyperledger Framework & Tools](#Overview-of-Hyperledger-Framework-and-Tools)
-	- [Key Concpets of HLF](#Key-Concpets-of-HLF)
+	- [Hyperledger FABRIC, Hyperledger COMPOSER, Hyperledger EXPLORER](#Hyperledger-FABRIC-,-Hyperledger-COMPOSER-,-Hyperledger-EXPLORER)
+	- [Key Concpets of Hyperledger FABRIC](#Key-Concpets-of-Hyperledger-FABRIC)
 	
 - [(2) AWS Quantum Ledger Database QLDB](#AWS-Quantum-Ledger-Database-QLDB)
 	- [Overview of AWS QLBD](#Overview-of-AWS-QLBD)
@@ -76,12 +77,11 @@ However, The commonality amongst All of the types of available frameworks
 
 
 ### BlockchainOps
-Full Scale Operationalization Paradigm: **BlcokchainOps**: *DevOps in Blockchain*-  
-One can use **Kubernetes (CaaS)** to seamlessly manage and govern any 
-
+**Full Scale Operationalization Paradigm for Blockchain**: **BlcokchainOps**: It's application of **DevOps** in Blockchain lifecycle management.  
+One can use **Kubernetes (CaaS)** to seamlessly manage and govern any containerized Blockchain network lifecycle with the High availability, Auto Scalability, Self healing by orchasterating- 
 - Blockchain containerized network, 
 - workloads (smart contracts, Member registry et al) 
-with the High availability, Auto Scalability, Self healing NFRs. 
+
 
  
 
@@ -172,7 +172,39 @@ Broader ecosystem of *HL Framework & Tools:*
 
 [Source](https://www.hyperledger.org/wp-content/uploads/2018/07/HL_Whitepaper_IntroductiontoHyperledger.pdf)
 
-### Key Concpets of HLF
+
+### Hyperledger FABRIC, Hyperledger COMPOSER, Hyperledger EXPLORER
+**Hyperledger FABRIC:** 
+```
+- A very popular Blockchain Network from Hyperledger ecosystem. 
+- Whereas other Blockchain Network from Hyperledger ecosystem, such as Hyperledger SAWTOOTH is the 2nd popular network.
+```
+
+**Hyperledger EXPLORER:**
+```
+User-friendly Web application tool from Hyperledger ecosystem to used to 
+- view, invoke, deploy or query 
+   - blocks,
+   - transactions and associated data, 
+   - network information (name, status, list of nodes), 
+   - chain codes and transaction families, 
+   - as well as any other relevant information stored in the ledger.
+```
+Reference: [Official Link](https://www.hyperledger.org/use/explorer)
+Reference: [Video Demo](https://www.youtube.com/watch?v=mI6-qRagn_Q)
+
+**Hyperledger COMPOSER:**
+```
+The Hyperledger Composer Playground provides a user interface for the 
+- configuration, deployment and testing of a business network. 
+- Advanced Playground features permit users to manage 
+ 	- the security of the business network, 
+	- invite participants to business networks and 
+	- connect to multiple blockchain business networks.
+```
+Reference: [Official Link](https://hyperledger.github.io/composer/latest/playground/playground-index)
+
+### Key Concpets of Hyperledger FABRIC
 
 - Blockchain network:
 	A blockchain network is a technical infrastructure that provides ledger and smart contract (chaincode) services to applications
