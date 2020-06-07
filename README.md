@@ -1,5 +1,23 @@
 # Blockchain Hyperledger-Fabric AWS-QLDB AWS-MSB
- 
+ A quick Rundown
+- [Blcokchain Quick Overview](#Blcokchain-Quick-Overview)
+	
+	- [A Sneak Peek into widely used Blockchain frameworks](#A-Sneak-Peek-into-widely-used-Blockchain-frameworks)
+	- [Multiple Blcokchain Frameworks](#Multiple-Blcokchain-Frameworks)
+	- [When to use Which Framework](#When-to-use-Which-Framework)
+
+- [(1) Hyperledger Fabric HLF](#Hyperledger-Fabric-HLF)
+	- [Overview of Hyperledger Framework & Tools](#Overview-of-Hyperledger-Framework-and-Tools)
+	- [Key Concpets of HLF](#Key-Concpets-of-HLF)
+	
+- [(2) AWS Quantum Ledger Database QLDB](#AWS-Quantum-Ledger-Database-QLDB)
+	- [Overview of AWS QLBD](#Overview-of-AWS-QLBD)
+	- [Use Cases application of QLDB for Data ENGINEERS & DATA ARCHITECTS](#Use-Cases-application-of-QLDB-for-DATA-ENGINEERS-and-DATA-ARCHITECTS)
+	- [Implementation Architecture Solution using QLDB](#Implementation-Architecture-Solution-using-QLDB)
+	
+- [(3) AWS Managed Blcokchain AMB](#AWS-Managed-Blcokchain-AMB)
+
+
 This repo primarily intends to offer  
 - Blcokchain Quick Overview 
 - Canvassing of 3 major framework/services for Blcokchain
@@ -28,24 +46,6 @@ Please note:
  - This is truly illustrative in nature. 
 
 ***
-
-A quick Rundown
-- [Blcokchain Quick Overview](#Blcokchain-Quick-Overview)
-	
-	- [A Sneak Peek into widely used Blockchain frameworks](#A-Sneak-Peek-into-widely-used-Blockchain-frameworks)
-	- [Multiple Blcokchain Frameworks](#Multiple-Blcokchain-Frameworks)
-	- [When to use Which Framework](#When-to-use-Which-Framework)
-
-- [(1) Hyperledger Fabric HLF](#Hyperledger-Fabric-HLF)
-	- [Overview of Hyperledger Framework & Tools](#Overview-of-Hyperledger-Framework-and-Tools)
-	- [Key Concpets of HLF](#Key-Concpets-of-HLF)
-	
-- [(2) AWS Quantum Ledger Database QLDB](#AWS-Quantum-Ledger-Database-QLDB)
-	- [Overview of AWS QLBD](#Overview-of-AWS-QLBD)
-	- [Use Cases application of QLDB for Data ENGINEERS & DATA ARCHITECTS](#Use-Cases-application-of-QLDB-for-DATA-ENGINEERS-and-DATA-ARCHITECTS)
-	- [Implementation Architecture Solution using QLDB](#Implementation-Architecture-Solution-using-QLDB)
-	
-- [(3) AWS Managed Blcokchain AMB](#AWS-Managed-Blcokchain-AMB)
 
 
 # Blcokchain Quick Overview 
