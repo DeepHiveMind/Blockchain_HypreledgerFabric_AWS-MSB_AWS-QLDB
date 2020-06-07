@@ -2,7 +2,7 @@
  
 This repo primarily intends to offer  
 - Blcokchain Quick Overview 
-- canvassing of 3 major framework/services for Blcokchain
+- Canvassing of 3 major framework/services for Blcokchain
 	- **Hyperledger-Fabric** 
 	- **AWS-QLDB (AWS Quantum Ledger Database)**
 	- **AWS-MSB (AWS Managed Blockchain)**
