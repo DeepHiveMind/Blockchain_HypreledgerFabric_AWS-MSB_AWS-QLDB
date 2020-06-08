@@ -263,7 +263,8 @@ Reference: [Official Link](https://hyperledger.github.io/composer/latest/playgro
 Reference: [Video Demo](https://www.youtube.com/watch?v=gAxK6zYrfxI)
 
 ### DOCKER Hyperledger FABRIC Hyperledger EXPLORER
-
+- [Fabric baseimage from hyperledger](https://github.com/hyperledger/fabric-baseimage)
+- [Official reference](https://hyperledger-fabric.readthedocs.io/en/release-2.0/install.html)
 
 # AWS Quantum Ledger Database QLDB
 
