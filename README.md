@@ -8,8 +8,9 @@
 	- [Blockchain for DATA TRUST in ENTERPRISE DATA LAKE ENGINEERING world](#Blockchain-for-DATA-TRUST-in-ENTERPRISE-DATA-LAKE-ENGINEERING-world)
 - [(1) Hyperledger Fabric HLF](#Hyperledger-Fabric-HLF)
 	- [Overview of Hyperledger Framework & Tools](#Overview-of-Hyperledger-Framework-and-Tools)
-	- [Hyperledger FABRIC, Hyperledger COMPOSER, Hyperledger EXPLORER](#Hyperledger-FABRIC-,-Hyperledger-COMPOSER-,-Hyperledger-EXPLORER)
 	- [Key Concpets of Hyperledger FABRIC](#Key-Concpets-of-Hyperledger-FABRIC)
+	- [Hyperledger FABRIC, Hyperledger COMPOSER, Hyperledger EXPLORER](#Hyperledger-FABRIC-,-Hyperledger-COMPOSER-,-Hyperledger-EXPLORER)
+	- [DOCKER Hyperledger FABRIC Hyperledger EXPLORER)(#DOCKER-Hyperledger-FABRIC-Hyperledger-EXPLORER)
 	
 - [(2) AWS Quantum Ledger Database QLDB](#AWS-Quantum-Ledger-Database-QLDB)
 	- [Overview of AWS QLBD](#Overview-of-AWS-QLBD)
@@ -183,36 +184,6 @@ Broader ecosystem of *HL Framework & Tools:*
 [Source](https://www.hyperledger.org/wp-content/uploads/2018/07/HL_Whitepaper_IntroductiontoHyperledger.pdf)
 
 
-### Hyperledger FABRIC, Hyperledger COMPOSER, Hyperledger EXPLORER
-**Hyperledger FABRIC:** 
-```
-- A very popular Blockchain Network from Hyperledger ecosystem. 
-- Whereas other Blockchain Network from Hyperledger ecosystem, such as Hyperledger SAWTOOTH is the 2nd popular network.
-```
-
-**Hyperledger EXPLORER:**
-```
-User-friendly Web application tool from Hyperledger ecosystem to used to 
-- view, invoke, deploy or query 
-   - blocks,
-   - transactions and associated data, 
-   - network information (name, status, list of nodes), 
-   - chain codes and transaction families, 
-   - as well as any other relevant information stored in the ledger.
-```
-Reference: [Official Link](https://www.hyperledger.org/use/explorer)
-Reference: [Video Demo](https://www.youtube.com/watch?v=mI6-qRagn_Q)
-
-**Hyperledger COMPOSER:**
-```
-The Hyperledger Composer Playground provides a user interface for the 
-- configuration, deployment and testing of a business network. 
-- Advanced Playground features permit users to manage 
- 	- the security of the business network, 
-	- invite participants to business networks and 
-	- connect to multiple blockchain business networks.
-```
-Reference: [Official Link](https://hyperledger.github.io/composer/latest/playground/playground-index)
 
 ### Key Concpets of Hyperledger FABRIC
 
@@ -259,8 +230,39 @@ HLF also leverages *Gossip Protocol* & *Raft Algo* for following 3 major functio
 The same *protocol* and *Algo* is used in **Progrium Consul** (a distributed computing CONSENSUS Algo for Leader election and worker management), and it is applied in Seneca (a Microservice Framework on Nodejs)
 ***
 
+### Hyperledger FABRIC, Hyperledger COMPOSER, Hyperledger EXPLORER
+**Hyperledger FABRIC:** 
+```
+- A very popular Blockchain Network from Hyperledger ecosystem. 
+- Whereas other Blockchain Network from Hyperledger ecosystem, such as Hyperledger SAWTOOTH is the 2nd popular network.
+```
 
+**Hyperledger EXPLORER:**
+```
+User-friendly Web application tool from Hyperledger ecosystem to used to 
+- view, invoke, deploy or query 
+   - blocks,
+   - transactions and associated data, 
+   - network information (name, status, list of nodes), 
+   - chain codes and transaction families, 
+   - as well as any other relevant information stored in the ledger.
+```
+Reference: [Official Link](https://www.hyperledger.org/use/explorer)
+Reference: [Video Demo](https://www.youtube.com/watch?v=mI6-qRagn_Q)
 
+**Hyperledger COMPOSER:**
+```
+The Hyperledger Composer Playground provides a user interface for the 
+- configuration, deployment and testing of a business network. 
+- Advanced Playground features permit users to manage 
+ 	- the security of the business network, 
+	- invite participants to business networks and 
+	- connect to multiple blockchain business networks.
+```
+Reference: [Official Link](https://hyperledger.github.io/composer/latest/playground/playground-index)
+Reference: [Video Demo](https://www.youtube.com/watch?v=gAxK6zYrfxI)
+
+### DOCKER Hyperledger FABRIC Hyperledger EXPLORER
 
 
 # AWS Quantum Ledger Database QLDB
@@ -295,8 +297,10 @@ Please refer to the [link](https://docs.aws.amazon.com/qldb/latest/developerguid
 
 
 # AWS Managed Blcokchain AMB
+Please refer [Live demo link](https://www.youtube.com/watch?v=WAIOBeQA2QQ) from 12MINS onward
 
 ### Key Concpets of AMB
+Please Refer [Link for AMB Client Template](https://github.com/awslabs/amazon-managed-blockchain-client-templates)
 
 # Use Cases Application 1
 
@@ -354,12 +358,16 @@ The fundatmental technology of blockchain is crpytography. Crptography works on 
 
 ### Solution Architecture Solution using Hyperledger FABRIC, DOCKER, AWS EKS, AWS IOT, HSM
 
-Architecture Solution using QLDB for above use case application:
+Architecture Solution using AWS Managed Blockchain for above use case application:
 
 <img src="/img/IOTArchitecure.JPG" width="900" Height="500" />
-Solution Architecture [Link](https://www.youtube.com/watch?v=5CwIt-Alqhg)
+Solution Architecture
 
 # Reference
-[1]
+[1]https://www.youtube.com/watch?v=gAxK6zYrfxI
 
-[2]
+[2] https://www.youtube.com/watch?v=mI6-qRagn_Q
+
+[3] https://www.youtube.com/watch?v=5CwIt-Alqhg
+
+[4] https://www.youtube.com/watch?v=WAIOBeQA2QQ
