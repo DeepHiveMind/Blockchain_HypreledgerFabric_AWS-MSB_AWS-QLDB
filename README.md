@@ -1,5 +1,5 @@
 # Blockchain Hyperledger-Fabric AWS-QLDB AWS-MSB
- A quick Rundown
+ A quick Rundown of this Repo-
 - [Blcokchain Quick Overview](#Blcokchain-Quick-Overview)
 	- [Why Blockchain Matters More Than You Think](#Why-Blockchain-Matters-More-Than-You-Think)
 	- [Multiple Blockchain Frameworks](#Multiple-Blockchain-Frameworks)
@@ -7,23 +7,24 @@
 	- [BlockchainOps](#BlockchainOps)
 	- [When to use Which Framework](#When-to-use-Which-Framework)
 	- [Blockchain for DATA TRUST in ENTERPRISE DATA LAKE ENGINEERING world](#Blockchain-for-DATA-TRUST-in-ENTERPRISE-DATA-LAKE-ENGINEERING-world)
-- [(1) Hyperledger Fabric HLF](#Hyperledger-Fabric-HLF)
+- [(Blockchain Tech # 1) Hyperledger Fabric HLF](#Hyperledger-Fabric-HLF)
 	- [Overview of Hyperledger Framework & Tools](#Overview-of-Hyperledger-Framework-and-Tools)
 	- [Key Concpets of Hyperledger FABRIC](#Key-Concpets-of-Hyperledger-FABRIC)
 	- [Hyperledger FABRIC, Hyperledger COMPOSER, Hyperledger EXPLORER](#Hyperledger-FABRIC-,-Hyperledger-COMPOSER-,-Hyperledger-EXPLORER)
 	- [DOCKER Hyperledger FABRIC Hyperledger EXPLORER)(#DOCKER-Hyperledger-FABRIC-Hyperledger-EXPLORER)
 	
-- [(2) AWS Quantum Ledger Database QLDB](#AWS-Quantum-Ledger-Database-QLDB)
+- [(Blockchain Tech # 2) AWS Quantum Ledger Database QLDB](#AWS-Quantum-Ledger-Database-QLDB)
 	- [Overview of AWS QLBD](#Overview-of-AWS-QLBD)
 	- [PYTHON client API for AWS QLDB](#PYTHON-client-API-for-AWS-QLDB)
 	
-- [(3) AWS Managed Blcokchain AMB](#AWS-Managed-Blcokchain-AMB)
+- [(Blockchain Tech # 3) AWS Managed Blcokchain AMB](#AWS-Managed-Blcokchain-AMB)
 
-- [Use Case Application](#Use-Case-Application)
-	- [Application of Blockchain for DATA TRUST in ENTERPRISE DATA ENGINEERING](#Application-of-Blockchain-for-DATA-TRUST-in-ENTERPRISE-DATA-ENGINEERING)
-	- [Solution Architecture Solution using QLDB](#Solution-Architecture-using-QLDB)
+- [USE CASE IMPLEMENTATION](#USE-CASE-IMPLEMENTATION)
+	- [(USE CASE #1) Application of Blockchain for DATA TRUST in ENTERPRISE DATA ENGINEERING](#Application-of-Blockchain-for-DATA-TRUST-in-ENTERPRISE-DATA-ENGINEERING)
+		- [Solution Architecture using QLDB](#Solution-Architecture-using-QLDB)
 	
-
+	-[(USE CASE #2) Application of Blockchain for CIRCULAR SUPPLY CHAIN with IoT](#Application-of-Blockchain-for-CIRCULAR-SUPPLY-CHAIN-with-IoT)
+		-[Solution Architecture using HyperledgerFABRIC DOCKER AWS EKS IOT HSM](#Solution-Architecture-using-HyperledgerFABRIC-DOCKER-AWS-EKS-IOT-HSM)
 
 
 ***
@@ -331,7 +332,7 @@ Please refer [Live demo link](https://www.youtube.com/watch?v=WAIOBeQA2QQ) from 
 ### Key Concpets of AMB
 Please Refer [Link for AMB Client Template](https://github.com/awslabs/amazon-managed-blockchain-client-templates)
 
-# Use Cases Application
+# USE CASE IMPLEMENTATION
 
 ### Application of Blockchain for DATA TRUST in ENTERPRISE DATA ENGINEERING	
 
@@ -358,7 +359,7 @@ Businesses, Regulatory compliance (e.g., GDPR) often need a Data Lake / Data Fou
 	```
 
 
-#### Solution Architecture Solution of above use case using AWS QLDB
+#### Solution Architecture using AWS QLDB
 
 Architecture Solution using QLDB for above use case application:
 
@@ -385,7 +386,7 @@ The fundatmental technology of blockchain is crpytography. Crptography works on 
 	
 
 
-#### Solution Architecture Solution of above use case using Hyperledger FABRIC, DOCKER, AWS EKS, AWS IOT, HSM
+#### Solution Architecture using HyperledgerFABRIC DOCKER AWS EKS IOT HSM
 
 Architecture Solution using AWS Managed Blockchain for above use case application:
 
