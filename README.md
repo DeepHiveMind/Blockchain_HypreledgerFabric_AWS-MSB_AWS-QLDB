@@ -71,10 +71,13 @@ A Blockchain is
 	- *verify new transactions* and 
 	- *add them to the database**. 
 	
-- The *Blockchain protocol* protocol employs
- 	- cryptography, 
-  	- game theory, 
-  	- and economics to create incentives for the nodes to work toward securing the network instead of attacking it for personal gain. 
+- The *Blockchain protocol* offers *Consensus building mechanism* by employing
+ 	- **Cryptography**, 
+  	- **Game theory**, and 
+  	- **Economics** 
+to create incentives for the nodes to work
+	- toward securing the network instead of attacking it for personal gain. 
+
 - If the Blcokchain is set up correctly, this system can make it extremely difficult and expensive to add false transactions but relatively easy to verify valid ones.
 - Blcokchain comes baked in with *Data Provenance* by offering 
 	- immutable and 
