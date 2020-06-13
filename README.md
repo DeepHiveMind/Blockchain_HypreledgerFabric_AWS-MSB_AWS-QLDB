@@ -19,11 +19,11 @@
 	
 - [(3) AWS Managed Blcokchain AMB](#AWS-Managed-Blcokchain-AMB)
 
-- [Use Case Application 1]
+- [Use Case Application](#Use-Case-Application)
 	- [Application of Blockchain for DATA TRUST in ENTERPRISE DATA ENGINEERING](#Application-of-Blockchain-for-DATA-TRUST-in-ENTERPRISE-DATA-ENGINEERING)
 	- [Solution Architecture Solution using QLDB](#Solution-Architecture-using-QLDB)
 	
-- [Use Case Application 2]
+
 
 
 ***
@@ -331,7 +331,7 @@ Please refer [Live demo link](https://www.youtube.com/watch?v=WAIOBeQA2QQ) from 
 ### Key Concpets of AMB
 Please Refer [Link for AMB Client Template](https://github.com/awslabs/amazon-managed-blockchain-client-templates)
 
-# Use Cases Application 1
+# Use Cases Application
 
 ### Application of Blockchain for DATA TRUST in ENTERPRISE DATA ENGINEERING	
 
@@ -358,14 +358,14 @@ Businesses, Regulatory compliance (e.g., GDPR) often need a Data Lake / Data Fou
 	```
 
 
-### Solution Architecture Solution using QLDB
+#### Solution Architecture Solution of above use case using AWS QLDB
 
 Architecture Solution using QLDB for above use case application:
 
 <img src="/img/Architecture_QLDB_non-traditionalSOR.png" width="900" Height="500" />
 
 
-# Use Cases Application 2
+
 
 ### Application of Blockchain for CIRCULAR SUPPLY CHAIN	with IoT
 Business Techo Problem statement 
@@ -385,7 +385,7 @@ The fundatmental technology of blockchain is crpytography. Crptography works on 
 	
 
 
-### Solution Architecture Solution using Hyperledger FABRIC, DOCKER, AWS EKS, AWS IOT, HSM
+#### Solution Architecture Solution of above use case using Hyperledger FABRIC, DOCKER, AWS EKS, AWS IOT, HSM
 
 Architecture Solution using AWS Managed Blockchain for above use case application:
 
