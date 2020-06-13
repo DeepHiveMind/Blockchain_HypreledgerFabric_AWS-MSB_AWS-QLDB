@@ -32,7 +32,7 @@
 		- [Solution Architecture using QLDB](#Solution-Architecture-using-QLDB)
 	
 	-[(USE CASE #2) Application of Blockchain for CIRCULAR SUPPLY CHAIN with IoT](#Application-of-Blockchain-for-CIRCULAR-SUPPLY-CHAIN-with-IoT)
-		-[Solution Architecture using HyperledgerFABRIC DOCKER AWS EKS IOT HSM](#Solution-Architecture-using-HyperledgerFABRIC-DOCKER-AWS-EKS-IOT-HSM)
+		- [Solution Architecture using HyperledgerFABRIC DOCKER AWS EKS IOT HSM](#Solution-Architecture-using-HyperledgerFABRIC-DOCKER-AWS-EKS-IOT-HSM)
 
 
 ***
