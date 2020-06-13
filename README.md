@@ -4,20 +4,12 @@
 	- [Why Blockchain Matters More Than You Think](#Why-Blockchain-Matters-More-Than-You-Think)
 	- [Multiple Blockchain Frameworks](#Multiple-Blockchain-Frameworks)
 	- [A Sneak Peek into the FEATURES of widely used Blockchain frameworks](#A-Sneak-Peek-into-the-FEATURES-of-widely-used-Blockchain-frameworks)
-	- [BlockchainOps- Blockchain & DevOps](#BlockchainOPS)
+	- [BlockchainOps- BLOCKCHAIN & DEVOPS](#BlockchainOPS)
 	- [When to use Which Framework](#When-to-use-Which-Framework)
 	- [Blockchain for DATA TRUST in ENTERPRISE DATA LAKE ENGINEERING world](#Blockchain-for-DATA-TRUST-in-ENTERPRISE-DATA-LAKE-ENGINEERING-world)
 - [(Blockchain Tech # 1) Hyperledger Fabric HLF](#Hyperledger-Fabric-HLF)
 	- [Overview of Hyperledger Framework & Tools](#Overview-of-Hyperledger-Framework-and-Tools)
-	- [Key Concpets of Hyperledger FABRIC](#Key-Concpets-of-Hyperledger-FABRIC)
-		- [Blockchain network](#Blockchain-network)
-		- [Block and Chain](#Block-and-Chain)
-		- [Smart Contract](#Smart-Contract)
-		- [Chain Code](#Chain-Code)
-		- [World State](#World-State)
-		- [Channel](#Channel)
-		- [Membership Service Provider MSP](#Membership-Service-Provider)
-		- [Ordering Service](#Ordering-Service)
+
 	- [Hyperledger FABRIC, Hyperledger COMPOSER, Hyperledger EXPLORER](#Hyperledger-FABRIC-,-Hyperledger-COMPOSER-,-Hyperledger-EXPLORER)
 	- [DOCKER Hyperledger FABRIC Hyperledger EXPLORER)(#DOCKER-Hyperledger-FABRIC-Hyperledger-EXPLORER)
 	
@@ -84,7 +76,9 @@ A Blockchain is
   	- game theory, 
   	- and economics to create incentives for the nodes to work toward securing the network instead of attacking it for personal gain. 
 - If the Blcokchain is set up correctly, this system can make it extremely difficult and expensive to add false transactions but relatively easy to verify valid ones.
-
+- Blcokchain comes baked in with *Data Provenance* by offering 
+	- immutable and 
+	- cryptographically verifiable record of transactions
 
 ### Why Blockchain Matters More Than You Think
 
