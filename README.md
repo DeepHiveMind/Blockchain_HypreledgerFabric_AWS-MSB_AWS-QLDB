@@ -75,6 +75,7 @@ A Blockchain is
  	- **Cryptography**, 
   	- **Game theory**, and 
   	- **Economics** 
+
 to create incentives for the nodes to work
 	- toward securing the network instead of attacking it for personal gain. 
 
