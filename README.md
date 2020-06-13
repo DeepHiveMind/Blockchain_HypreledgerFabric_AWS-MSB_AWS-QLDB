@@ -55,11 +55,19 @@ Following Real world application of one of above Blockhain service is exhibited 
 
 # Blcokchain Quick Overview 
 
-A blockchain is a **cryptographic database** maintained by a network of computers, each of which **stores a copy of the most up-to-date version**. A blockchain protocol is a set of rules that dictate how the computers in the network, called nodes, should **verify new transactions** and **add them to the database**. The protocol employs 
-- cryptography, 
-- game theory, 
-- and economics to create incentives for the nodes to work toward securing the network instead of attacking it for personal gain.
-If set up correctly, this system can make it extremely difficult and expensive to add false transactions but relatively easy to verify valid ones.
+Blockchain Technology is also addressed as 
+	- **The Next Stage of Internet** 
+	- **The Trustless system of Values** (wherein TRUST is injected by crptography, game theory and other technologies; rather than human being)
+	- Technology quite *bigger and broader* than Bitcon
+	
+A blockchain is a 
+- **cryptographic database** maintained by a network of computers, each of which **stores a copy of the most up-to-date version**. A blockchain protocol is a set of rules that dictate how the computers in the network, called nodes, should **verify new transactions** and **add them to the database**. The protocol employs
+ 
+ 	  - cryptography, 
+	  - game theory, 
+	  - and economics to create incentives for the nodes to work toward securing the network instead of attacking it for personal gain. If set up correctly, this system can make it extremely difficult and expensive to add false transactions but relatively easy to verify valid ones.
+
+- I.e., It's Dapp/dApp (Decentralized application) which is a transparent system used for **management & exchange** of *Digital assets* like Ownership title, Medical Datasets, CryptoCurrency without the need of any external human/other wise driven system for TRUST.
 
 ### Why Blockchain Matters More Than You Think
 
