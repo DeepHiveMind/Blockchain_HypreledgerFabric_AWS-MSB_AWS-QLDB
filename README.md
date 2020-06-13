@@ -66,11 +66,17 @@ If set up correctly, this system can make it extremely difficult and expensive t
 
 <table>
   <tr>
-    <td width="30%">
-        This <a href="https://www.youtube.com/watch?v=GVN0Ddr3xig"> 6 MINS VIDEO </a> Why Blockchain Matters More Than You Think.
+    <td width="20%">
+        <a href="https://www.youtube.com/watch?v=GVN0Ddr3xig"> 6 MINS VIDEO </a> Explaining Why Blockchain Matters More Than You Think!
     </td>
-    <td width="70%">
-        <a href="https://www.youtube.com/watch?v=GVN0Ddr3xig"><img src="images/video.png"></a>
+    <td width="30%">
+        <a href="https://www.youtube.com/watch?v=GVN0Ddr3xig"><img src="img/blockchain_vid1.jpg"></a>
+    </td>
+	    <td width="20%">
+        <a href="https://www.youtube.com/watch?v=kP6EezXJKNM"> 16 MINS VIDEO </a> Explaining How Blockchain is Already Taking Over!
+    </td>
+    <td width="30%">
+        <a href="https://www.youtube.com/watch?v=kP6EezXJKNM"><img src="img/blockchain_vid2.jpg"></a>
     </td>
   </tr>
 </table>
