@@ -4,12 +4,20 @@
 	- [Why Blockchain Matters More Than You Think](#Why-Blockchain-Matters-More-Than-You-Think)
 	- [Multiple Blockchain Frameworks](#Multiple-Blockchain-Frameworks)
 	- [A Sneak Peek into the FEATURES of widely used Blockchain frameworks](#A-Sneak-Peek-into-the-FEATURES-of-widely-used-Blockchain-frameworks)
-	- [BlockchainOps](#BlockchainOps)
+	- [BlockchainOps- Blockchain & DevOps](#BlockchainOPS)
 	- [When to use Which Framework](#When-to-use-Which-Framework)
 	- [Blockchain for DATA TRUST in ENTERPRISE DATA LAKE ENGINEERING world](#Blockchain-for-DATA-TRUST-in-ENTERPRISE-DATA-LAKE-ENGINEERING-world)
 - [(Blockchain Tech # 1) Hyperledger Fabric HLF](#Hyperledger-Fabric-HLF)
 	- [Overview of Hyperledger Framework & Tools](#Overview-of-Hyperledger-Framework-and-Tools)
 	- [Key Concpets of Hyperledger FABRIC](#Key-Concpets-of-Hyperledger-FABRIC)
+		- [Blockchain network](#Blockchain-network)
+		- [Block and Chain](#Block-and-Chain)
+		- [Smart Contract](#Smart-Contract)
+		- [Chain Code](#Chain-Code)
+		- [World State](#World-State)
+		- [Channel](#Channel)
+		- [Membership Service Provider MSP](#Membership-Service-Provider)
+		- [Ordering Service](#Ordering-Service)
 	- [Hyperledger FABRIC, Hyperledger COMPOSER, Hyperledger EXPLORER](#Hyperledger-FABRIC-,-Hyperledger-COMPOSER-,-Hyperledger-EXPLORER)
 	- [DOCKER Hyperledger FABRIC Hyperledger EXPLORER)(#DOCKER-Hyperledger-FABRIC-Hyperledger-EXPLORER)
 	
@@ -42,6 +50,8 @@ Please note:
 Following Real world application of one of above Blockhain service is exhibited in the repo
 - **Application of Blockchain Network for ENTERPRISE DATA LAKE ENGINEERING and for DATA ARCHITECTS**
 - **Digital Asset Management**
+- **TRUSTED DATA PLATFORM** (System-Of-Enagements)
+- **CIRCULAR SUPPLY CHAIN with IoT**
 
 
 *For the ease of addressing, hereon, I'll use following pairs of terms interchangably* - 
@@ -61,14 +71,19 @@ Blockchain Technology is also addressed as
 	- **The Trustless system of Values** (wherein TRUST is injected by crptography, game theory and other technologies; rather than human being)
 	- Technology quite *bigger and broader* than Bitcon
 	
-A blockchain is a 
-- **cryptographic database** maintained by a network of computers, each of which **stores a copy of the most up-to-date version**. A blockchain protocol is a set of rules that dictate how the computers in the network, called nodes, should **verify new transactions** and **add them to the database**. The protocol employs
- 
- 	  - cryptography, 
-	  - game theory, 
-	  - and economics to create incentives for the nodes to work toward securing the network instead of attacking it for personal gain. If set up correctly, this system can make it extremely difficult and expensive to add false transactions but relatively easy to verify valid ones.
+A Blockchain is 
+- A *Transparent*, Cryptographically *Trusted* Dapp/dApp (Decentralized application) system used for **management & exchange** of *Digital assets* like Ownership title, Medical Datasets, CryptoCurrency without the need of any external human/other wise driven system for TRUST.
+- A **cryptographic database** maintained by a network of computers, each of which **stores a copy of the most up-to-date version of Ledger**. It uses *Blockchain Protocol* for TRUST in *Transaction and Ledger management*.
+- A **Blockchain protocol** is a set of rules that dictate how the computers in the network, called nodes, should 
+	- *verify new transactions* and 
+	- *add them to the database**. 
+	
+- The *Blockchain protocol* protocol employs
+ 	- cryptography, 
+  	- game theory, 
+  	- and economics to create incentives for the nodes to work toward securing the network instead of attacking it for personal gain. 
+- If the Blcokchain is set up correctly, this system can make it extremely difficult and expensive to add false transactions but relatively easy to verify valid ones.
 
-- I.e., It's Dapp/dApp (Decentralized application) which is a transparent system used for **management & exchange** of *Digital assets* like Ownership title, Medical Datasets, CryptoCurrency without the need of any external human/other wise driven system for TRUST.
 
 ### Why Blockchain Matters More Than You Think
 
@@ -116,11 +131,21 @@ However, The commonality amongst All of the types of available frameworks
 - each one is also available in **DOCKER (containers)**
 
 
-### BlockchainOps
-**Full Scale Operationalization Paradigm for Blockchain**: **BlcokchainOps**: It's application of **DevOps** in Blockchain lifecycle management.  
-One can use **Kubernetes (CaaS)** to seamlessly manage and govern any containerized Blockchain network lifecycle with the High availability, Auto Scalability, Self healing by orchasterating- 
-- Blockchain containerized network, 
-- workloads (smart contracts, Member registry et al) 
+### BlockchainOPS
+
+BlcokchainOps:
+- **Full Scale Operationalization Paradigm for Blockchain**
+- It's application of **DevOps** in Blockchain lifecycle management. 
+
+One can use **Kubernetes (CaaS)** & **Containerization (Docker)** to seamlessly *manage and govern* by orchasterating 
+ - any **containerized Blockchain network** lifecycle with 
+ 	- the High availability, 
+	- Auto Scalability, 
+	- Self healing 
+- any kind of **Blockchain workloads** 
+	- Smart Contracts, 
+	- Member registry,
+	- et al
 
 
  
@@ -215,37 +240,35 @@ Broader ecosystem of *HL Framework & Tools:*
 
 
 ### Key Concpets of Hyperledger FABRIC
-
-- Blockchain network:
+##### Blockchain network
 	A blockchain network is a technical infrastructure that provides ledger and smart contract (chaincode) services to applications
 
-- Block & Chain: 
+##### Block and Chain 
 	A block contains an ordered set of transactions. It is cryptographically linked to the preceding block, and in turn it is linked to be subsequent blocks.
 
 	The ledger’s chain is a transaction log structured as hash-linked blocks of transactions. Suuch as, Blockchain B contains blocks 0, 1, 2.
 	
-- Smart Contract:
-
+##### Smart Contract
 	A smart contract is code (invoked by a client application external to the blockchain network) that manages access and modifications to a set of *key-value pairs* in the *World State* via Transaction.
 
 	
-- Chain Code:
+##### Chain Code
 
 	In Hyperledger Fabric, smart contracts are packaged as chaincode. Chaincode is installed on peers and then defined and used on one or more channels.
 
-- World State:
+##### World State
 
 	*World state* maintains  “current state” of transaction in Ledger, and such data is stored in a state database for efficient reads and queries from chaincode. Supported databases include - *couchDB*.
 	
-- Channel:
+##### Channel
 	
 	A channel is a private blockchain *overlay* which allows for data isolation and confidentiality. A channel-specific ledger is shared across the peers in the channel, and transacting parties must be authenticated to a channel in order to interact with it. Channels are defined by a *Configuration-Block*.
 	
-- Membership Service Provider:
+##### Membership Service Provider
 
 	MSP refers to an abstract component of the system that provides credentials to clients, and peers for them to participate in HLF.
 
-- Ordering Service:
+##### Ordering Service
 
 	Also known as orderer. A defined collective of nodes that orders transactions into a block and then distributes blocks to connected peers for validation and commit. The ordering service exists independent of the peer processes and orders transactions on a first-come-first-serve basis for all channels on the network.
 
