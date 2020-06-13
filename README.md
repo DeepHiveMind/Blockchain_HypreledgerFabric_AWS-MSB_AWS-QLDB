@@ -325,13 +325,13 @@ Reference: [Video Demo](https://www.youtube.com/watch?v=gAxK6zYrfxI)
         <a href="https://www.hyperledger.org/use/explorer"> Hyperledger EXPLORER </a> Official Link of Hyperledger Explorer
     </td>
     <td width="30%">
-        <a href="https://www.youtube.com/watch?v=mI6-qRagn_Q"><img src="img/HL_composer.PNG"></a>
+        <a href="https://www.youtube.com/watch?v=mI6-qRagn_Q"><img src="img/HL_composer.png"></a>
     </td>
 	    <td width="20%">
         <a href="https://hyperledger.github.io/composer/latest/playground/playground-index"> Hyperledger COMPOSER </a> Official Link of Hyperledger Composer
     </td>
     <td width="30%">
-        <a href="https://www.youtube.com/watch?v=gAxK6zYrfxI"><img src="img/HL_explorer.PNG"></a>
+        <a href="https://www.youtube.com/watch?v=gAxK6zYrfxI"><img src="img/HL_explorer.png"></a>
     </td>
   </tr>
 </table>
