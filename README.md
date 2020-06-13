@@ -78,13 +78,13 @@ A blockchain is a
         <a href="https://www.youtube.com/watch?v=GVN0Ddr3xig"> 6 MINS VIDEO </a> Explaining Why Blockchain Matters More Than You Think!
     </td>
     <td width="30%">
-        <a href="https://www.youtube.com/watch?v=GVN0Ddr3xig"><img src="img/blockchain_vid1.jpg"></a>
+        <a href="https://www.youtube.com/watch?v=GVN0Ddr3xig"><img src="img/blockchain_vid1.JPG"></a>
     </td>
 	    <td width="20%">
         <a href="https://www.youtube.com/watch?v=kP6EezXJKNM"> 16 MINS VIDEO </a> Explaining How Blockchain is Already Taking Over!
     </td>
     <td width="30%">
-        <a href="https://www.youtube.com/watch?v=kP6EezXJKNM"><img src="img/blockchain_vid2.jpg"></a>
+        <a href="https://www.youtube.com/watch?v=kP6EezXJKNM"><img src="img/blockchain_vid2.JPG"></a>
     </td>
   </tr>
 </table>
