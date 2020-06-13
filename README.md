@@ -1,7 +1,8 @@
 # Blockchain Hyperledger-Fabric AWS-QLDB AWS-MSB
  A quick Rundown
 - [Blcokchain Quick Overview](#Blcokchain-Quick-Overview)
-	- [Multiple Blcokchain Frameworks](#Multiple-Blcokchain-Frameworks)
+	- [Why Blockchain Matters More Than You Think](#Why-Blockchain-Matters-More-Than-You-Think)
+	- [Multiple Blockchain Frameworks](#Multiple-Blockchain-Frameworks)
 	- [A Sneak Peek into the FEATURES of widely used Blockchain frameworks](#A-Sneak-Peek-into-the-FEATURES-of-widely-used-Blockchain-frameworks)
 	- [BlockchainOps](#BlockchainOps)
 	- [When to use Which Framework](#When-to-use-Which-Framework)
@@ -24,14 +25,22 @@
 	
 - [Use Case Application 2]
 
-This repo primarily intends to canvass for 3 following major framework/services for Blcokchain
-- **Hyperledger-Fabric** 
-- **AWS-QLDB (AWS Quantum Ledger Database)**
-- **AWS-MSB (AWS Managed Blockchain)**
 
-Real world application of one of above Blockhain service 
-- ENT**Use Cases application of Blockchain Network for ENTERPRISE DATA LAKE ENGINEERING and for DATA ARCHITECTS**
-- Digital Asset Management
+***
+This repo primarily intends to offer distillation of my experience in 3 major Blcokchain frameworks - HLF, QLDB & MSB. 
+Please note: 
+ - There are very many other popular Blockchain frameworks and tools available in the market in addition to the chosen ones in this repo. This repo primarily intends to canvass for 3 following major framework/services for Blcokchain
+	- **Hyperledger-Fabric** 
+	- **AWS-QLDB (AWS Quantum Ledger Database)**
+	- **AWS-MSB (AWS Managed Blockchain)**
+ 
+ - Many of these aforemention Blcokchain framework/services are very popular, and are being extensively used.
+ - This repo is illustrative in nature. 
+
+
+Following Real world application of one of above Blockhain service is exhibited in the repo
+- **Application of Blockchain Network for ENTERPRISE DATA LAKE ENGINEERING and for DATA ARCHITECTS**
+- **Digital Asset Management**
 
 
 *For the ease of addressing, hereon, I'll use following pairs of terms interchangably* - 
@@ -40,15 +49,6 @@ Real world application of one of above Blockhain service
 - AWS-QLDB as **QLDB**
 - AWS MSB as **MSB**
  
-***
-This repo primarily intends to offer distillation of my experience in 3 major Blcokchain frameworks - HLF, QLDB & MSB. 
-Please note: 
- - There are very many other popular Blockchain frameworks and tools available in the market in addition to the chosen ones in this repo, such as 
-		- 
- 
- - Many of these aforemention Blcokchain framework/services are very popular, and are being extensively used.
- - This repo doesn't intend to draw any sort of comparative view between the chosen framework/services and other popular frameworks.
- - This is truly illustrative in nature. 
 
 ***
 
@@ -61,7 +61,21 @@ A blockchain is a **cryptographic database** maintained by a network of computer
 - and economics to create incentives for the nodes to work toward securing the network instead of attacking it for personal gain.
 If set up correctly, this system can make it extremely difficult and expensive to add false transactions but relatively easy to verify valid ones.
 
-### Multiple Blcokchain Frameworks
+### Why Blockchain Matters More Than You Think
+
+
+<table>
+  <tr>
+    <td width="30%">
+        This <a href="https://www.youtube.com/watch?v=GVN0Ddr3xig"> 6 MINS VIDEO </a> Why Blockchain Matters More Than You Think.
+    </td>
+    <td width="70%">
+        <a href="https://www.youtube.com/watch?v=GVN0Ddr3xig"><img src="images/video.png"></a>
+    </td>
+  </tr>
+</table>
+
+### Multiple Blockchain Frameworks
 
 Just a sneak peek into Blcokchain Frameworks through Infographics:
 
